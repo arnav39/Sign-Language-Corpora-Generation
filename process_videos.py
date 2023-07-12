@@ -12,6 +12,7 @@ import subprocess
 import whisper
 model = whisper.load_model("base")
 
+
 dir_path=os.getcwd()
 ISL_path=os.path.join(dir_path,"ISLRTC_DATA")
 input_path=os.path.join(ISL_path,"input")
